@@ -44,7 +44,7 @@ public class PayDay {
      */
     public String pay(String name, double rate, double worked, double deduct) {
         String result;
-    //TimeCard timecard = new TimeCard(n , rate, worked, de
+    //TimeCard t
         
     double grosspay = rate * worked;
     double deduction = grosspay * deduct;
